@@ -28,6 +28,7 @@ Awesome-Android-Reverse-Engineering is an amazing list for people who work in ta
 # Contents
 - [Training](#Training "Training")
   - [Courses and Material](#Courses-and-Material "Courses-and-Material")
+  - [Videos](#videos)
   - [Books](#Books "Books")
 - [Tools](#Tools "Tools")
   - [Static Analysis Tools](#Static-Analysis-Tools)
@@ -38,22 +39,26 @@ Awesome-Android-Reverse-Engineering is an amazing list for people who work in ta
   - [Documentation](#Documentation)
   - [Case Studies](#case-studies)
 - [CTFs and CrackMe's](#CTFs-and-CrackMes)
-
+- [Misc](#Misc)
 
 ## Training
 ### Courses and Material
 - [Maddie Stone's Android Reverse Engineering Training ](https://www.ragingrock.com/AndroidAppRE/ "Maddie Stone's Android Reverse Engineering Training ")- A comprehensive online training course on Android reverse engineering by Maddie Stone.
 - [Introduction to Assembly from Azeria Labs](https://azeria-labs.com/writing-arm-assembly-part-1/) - Covering everything from Data Types, Registers, the ARM Instruction Set, Memory Instructions, and more
+- [Android Penetration Testing From #TODO](https://www.reverseengineering.courses/course/android-penetration-testing/) - This course will see you develop a baseline knowledge of what is involved in mobile penetration testing along with the specific tools, techniques, and frameworks involved in taking apart and analyzing Android applications.
+
+### Videos
 - [Kristina Balaam Android Reverse Engineering](https://www.youtube.com/@chmodxx) - A video series on reverse engineering basics and reverse engineering Android malware.
 - [LaurieWired Android Reverse Engineering videos](https://www.youtube.com/@lauriewired) - A YouTube channel focusing on Android reverse engineering.
-- [Using Frida To Modify Android Games | Mobile Dynamic Instrumentation](https://www.youtube.com/watch?v=BXtAujoPhQw) - Focusing on Reverse engineering Android applications, however, focuses on using Frida to dynamically modify Android games.
-
+- [Using Frida To Modify Android Games | Mobile Dynamic Instrumentation](https://www.youtube.com/watch?v=BXtAujoPhQw) - Focusing on Reverse engineering Android applications and on using Frida to dynamically modify Android games.
 
 ### Books
 - [Android Internals: A Confectioner's Cookbook](http://newandroidbook.com/ "Android Internals: A Confectioner's Cookbook") - An in-depth exploration of the inner-workings of Android: In Volume I, we take the perspective of the Power User as we delve into the foundations of Android, filesystems, partitions, boot process, native daemons and services.
 - [Blue Fox: Arm Assembly Internals and Reverse Engineering](https://www.amazon.co.uk/dp/1119745306) - Provides readers with a solid foundation in Arm assembly internals and reverse-engineering fundamentals as the basis for analysing and securing billions of Arm devices.
 - [Android Software Internals Quick Reference](https://www.amazon.co.uk/Android-Software-Internals-Quick-Reference/dp/1484269136) - This book focuses on easily digestible, useful, and interesting techniques in Java and the Android system. Including: encryption and obfuscation, debugging, and APK extraction.
-
+- [Mobile Offensive Security Pocket Guide](https://www.amazon.co.uk/Mobile-Offensive-Security-Pocket-Guide/dp/1399921959/ref=sr_1_4) - Focusing on Android and iOS operating systems, the book contains a series of succinct chapters that highlight key information, approaches, and tooling used by mobile penetration testers and offensive security practitioners. 
+- [Android Security Internals](https://nostarch.com/androidsecurity) -  Describing Android security architecture from the bottom up, delving into the implementation of major security-related components and subsystems, like Binder IPC, permissions, cryptographic providers, and device administration.
+- [Android Malware Detection with Machine Learning](https://nostarch.com/androidmalwaredetection) -  Examine the machine-learning techniques used to detect malicious apps, the types of classification models that defenders can use, and the various features of malware specimens that can become input to these models.
 
 ## Tools
 ### Static Analysis Tools
@@ -106,10 +111,14 @@ Awesome-Android-Reverse-Engineering is an amazing list for people who work in ta
 - [Radare2](https://rada.re/n/ "Radare2") - A free and open-source reverse engineering framework that supports Android analysis, including disassembly, debugging, and binary analysis.
 - [Androguard](https://github.com/androguard/androguard "Androguard") - An open-source tool for analysing and reverse engineering Android apps, including decompiling APK files, analysing Dalvik bytecode, and more.
 - [apk2gold](https://github.com/lxdvs/apk2gold) - CLI tool for decompiling Android apps to Java. Doing both resources and Java (this repo is 9 years old, and so may not work with newer Android versions).
+- [AndroidProjectCreator](https://github.com/ThisIsLibra/AndroidProjectCreator) - Convert an APK to an Android Studio Project using multiple open-source decompilers.
+- [APK Studio](https://github.com/vaibhavpandeyvpz/apkstudio) - Open-source, cross platform Qt based IDE for reverse-engineering Android application packages.
+- [show-java](https://github.com/niranjan94/show-java) - An APK (android application), JAR & Dex decompiler for android.
 
 ### Malware Analysis 
 - [DroidDetective](https://github.com/user1342/DroidDetective) - A machine learning malware analysis framework for Android apps.
 - [Cuckoo Droid](https://github.com/idanr1986/cuckoodroid-2.0) - CuckooDroid - Automated Android Malware Analysis with Cuckoo Sandbox.
+- [androwarn](https://github.com/maaaaz/androwarn) - A static code analyzer for malicious Android applications.
 
 ## Resources
 ### Documentation
@@ -128,6 +137,10 @@ Awesome-Android-Reverse-Engineering is an amazing list for people who work in ta
 - [UnCrackable Mobile Apps](https://github.com/OWASP/owasp-mastg/tree/master/Crackmes) - A set of OWASP Android app Crackme's. These challenges are used as examples throughout the OWASP MASTG. Of course, you can also solve them for fun.
 - [CyberTruckChallenge19](https://github.com/nowsecure/cybertruckchallenge19) - Android security workshop material taught during the CyberTruck Challenge 2019 (Detroit USA).
 - [KGB Messenger](https://github.com/tlamb96/kgb_messenger) - KGB Messenger is an open source CTF practice challenge that aims to help people learn how to reverse engineer Android applications.
+
+## Misc
+- [LADB](https://github.com/tytydraco/LADB) - A local ADB shell for Android!
+- [Broken Droid Factory](https://github.com/user1342/Broken-Droid-Factory) - BDF is a Python tool designed to spin-up pseudo random vulnerable Android applications for training when it comes to vulnerability research, ethical hacking, and pen testing on Android apps.
 
 ## Contributing
 Your contributions are always welcome! Please read the contribution guidelines first. We  follow the Contributor Covenant Code of Conduct. Please make sure to review and adhere to this code of conduct when contributing.
